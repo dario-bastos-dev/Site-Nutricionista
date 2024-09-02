@@ -1,0 +1,161 @@
+/* Animações */
+@keyframes translateX-ani {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateY-ani {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Scrool Animations */
+header > nav {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+footer > .container,
+.copy > p {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+.section-2 > h2,
+section h4 {
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.section-2 > .container > .bio,
+.section-1 > .container > .main > img,
+.section-1 > .container > .main > h1,
+.section-3 > .container > .servicos > div,
+.section-4 > .container > .avaliacoes > .ava,
+.section-6 > .container .form-contact {
+  opacity: 0;
+  transform: translateX(-250px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+.section-6 > .container .form-contact > form {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+.section-2 > .container > .img-esp > img {
+  opacity: 0;
+  transform: translateX(250px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+section a.btn {
+  opacity: 0;
+  transform: translateY(100px);
+}
+.section-5 > .container > .caixa > .sec-1 > .texto,
+.section-5 > .container > .caixa > .sec-3 > .texto,
+.section-6 > .container .map {
+  opacity: 0;
+  transform: translateX(250px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.section-5 > .container > .caixa > .sec-1 > img,
+.section-5 > .container > .caixa > .sec-3 > img {
+  opacity: 0;
+  transform: translateX(-250px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.section-5 > .container > .caixa > .sec-2 > .texto {
+  opacity: 0;
+  transform: translateX(-250px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+.section-5 > .container > .caixa > .sec-2 > img {
+  opacity: 0;
+  transform: translateX(250px);
+  transition: opacity 1.5s, transform 1.5s;
+}
+
+/* animate */
+header.animate > nav,
+footer.animate > .container,
+.copy.animate > p {
+  animation: translateY-ani 2s ease forwards;
+}
+.animate a.btn {
+  animation: translateY-ani 1.5s ease forwards;
+}
+.animate > h2,
+.animate h4 {
+  animation: translateY-ani 1.5s ease-out forwards;
+}
+.animate > .container > .bio,
+.animate > .container > .main > img,
+.animate > .container > .main > h1,
+.animate > .container > .img-esp > img,
+.animate > .container .form-contact,
+.animate > .container .form-contact > form,
+.animate > .container .map {
+  animation: translateX-ani 1.5s ease-out forwards;
+}
+
+.section-6 > .container .map {
+  animation-delay: 0.5s;
+}
+
+.section-6 > .container .form-contact > form {
+  animation-delay: 0.5s;
+}
+
+.animate > .container > .img-esp > img {
+  animation-delay: 0.7s;
+}
+
+.animate > .container > .servicos > .servico-1,
+.animate > .container > .avaliacoes > .ava-1,
+.animate > .container > .servicos > .servico-2,
+.animate > .container > .avaliacoes > .ava-2,
+.animate > .container > .servicos > .servico-3,
+.animate > .container > .avaliacoes > .ava-3 {
+  animation: translateX-ani 1s ease-in forwards;
+}
+.animate > .container > .servicos > .servico-2,
+.animate > .container > .avaliacoes > .ava-2 {
+  animation-delay: 1s;
+}
+.animate > .container > .servicos > .servico-3,
+.animate > .container > .avaliacoes > .ava-3 {
+  animation-delay: 2s;
+}
+
+.animate > .container > .caixa > .sec-1 > img,
+.animate > .container > .caixa > .sec-1 > .texto,
+.animate > .container > .caixa > .sec-2 > img,
+.animate > .container > .caixa > .sec-2 > .texto,
+.animate > .container > .caixa > .sec-3 > img,
+.animate > .container > .caixa > .sec-3 > .texto {
+  animation: translateX-ani 1s ease-out forwards;
+}
+.animate > .container > .caixa > .sec-1 > img {
+  animation-delay: 0.5s;
+}
+.animate > .container > .caixa > .sec-2 > .texto {
+  animation-delay: 1s;
+}
+.animate > .container > .caixa > .sec-2 > img {
+  animation-delay: 1.5s;
+}
+.animate > .container > .caixa > .sec-3 > .texto {
+  animation-delay: 2s;
+}
+.animate > .container > .caixa > .sec-3 > img {
+  animation-delay: 2.5s;
+}

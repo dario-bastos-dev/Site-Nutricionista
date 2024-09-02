@@ -144,6 +144,165 @@
 
 /*Telas médias*/
 @media (min-width: 641px) and (max-width: 1007px) {
+  header {
+    display: none;
+  }
+  section {
+    padding: 60px 20px !important;
+  }
+  a.btn {
+    font-size: 2rem;
+    padding: 15px 20px;
+  }
+  h4 {
+    font-size: 2.4rem !important;
+  }
+  .section-1 {
+    background-image: none;
+    text-align: center;
+    .container > div > img {
+      width: 60%;
+    }
+  }
+  .container {
+    flex-direction: column;
+  }
+  .section-2 {
+    .container {
+      flex-direction: column-reverse !important;
+      .bio {
+        text-align: center;
+        margin: 0;
+        .nome {
+          font-size: 2.3rem !important;
+          margin: 0 0 10px 0;
+        }
+        .area {
+          font-size: 2rem;
+          margin: 0 0 30px 0;
+        }
+
+        .desc {
+          font-size: 1.8rem;
+        }
+      }
+      .img-esp {
+        margin: 0 0 40px 0;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .section-3 {
+    .servicos {
+      flex-direction: column;
+      align-items: center;
+      div {
+        margin: 25px 0;
+        width: 30rem !important;
+        padding: 20px;
+      }
+    }
+  }
+
+  .section-4 {
+    .avaliacoes {
+      flex-direction: column;
+      justify-content: center;
+      .ava {
+        margin: 20px 0;
+        width: 100% !important;
+        .nome-img {
+          font-size: 1rem !important;
+          .name-star {
+            margin: 0;
+          }
+          p {
+            margin: 0 0 5px 0;
+          }
+          .stars {
+            width: 6rem;
+          }
+
+          .google {
+            margin: 0 0 0 -25%;
+          }
+        }
+      }
+    }
+  }
+
+  .section-5 {
+    .container {
+      flex-direction: column;
+      .info {
+        flex-direction: column;
+        margin: 30px 0;
+        text-align: center;
+        font-size: 1.2rem;
+        .texto {
+          font-size: 1.8rem;
+          margin: 0 0 20px 0;
+        }
+        img {
+          width: 70%;
+          margin: 0 0 30px 0;
+        }
+      }
+      .sec-2 {
+        flex-direction: column-reverse !important;
+      }
+    }
+  }
+
+  .section-6 {
+    .container {
+      .contacts {
+        flex-direction: column;
+        padding: 0 20px;
+
+        .form-contact {
+          width: 100%;
+        }
+
+        .map {
+          margin: 50px 0 0 -43.5%;
+          iframe {
+            width: 200%;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    padding: 60px 0 0 0;
+
+    .container {
+      .imgs > img {
+        width: 15rem;
+      }
+
+      .social > img {
+        width: 2.5rem;
+      }
+
+      .section {
+        margin: 20px 0;
+        .title {
+          font-size: 1.8rem;
+        }
+        div > ul {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+  .copy {
+    background-color: var(--green-1);
+    font-size: 1.3rem;
+  }
 }
 
 /*Extra large*/
