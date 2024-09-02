@@ -92,6 +92,10 @@ footer.animate > .container,
 }
 .animate a.btn {
   animation: translateY-ani 1.5s ease forwards;
+  animation-delay: 2s ;
+}
+.animate a.btn-sec-1 {
+  animation: translateY-ani 1.5s ease forwards;
 }
 .animate > h2,
 .animate h4 {
